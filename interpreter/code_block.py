@@ -15,7 +15,7 @@ class CodeBlock:
   def __init__(self):
     # Define these for IDE auto-completion
     self.language = ""
-    self.output = ""
+    self.output = " "
     self.code = ""
     self.active_line = None
 
